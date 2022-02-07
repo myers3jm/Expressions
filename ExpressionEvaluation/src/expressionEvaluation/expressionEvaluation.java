@@ -11,7 +11,10 @@ public class expressionEvaluation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		// Declare an ArrayList for the lines in the input file
 		ArrayList<String> lines = new ArrayList<>();
+		// Attempt to open the input file
 		try {
 			File inputFile = new File("sampleIn.txt"); // Create File object
 			Scanner file = new Scanner(inputFile); // Create Scanner object
